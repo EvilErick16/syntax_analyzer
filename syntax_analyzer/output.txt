@@ -1,0 +1,17 @@
+--------------------------------
+TOKENS                   Lexemes
+--------------------------------
+
+IDENTIFIER               large
+OPERATOR                 =
+IDENTIFIER               num1$
+SEPARATOR                ;
+IDENTIFIER               large
+OPERATOR                 =
+IDENTIFIER               num2$
+SEPARATOR                ;
+ <statement> -> <assign>
+ <assign> -> <identifier><identifier>
+<identifier>
+<identifier>
+<identifier>
